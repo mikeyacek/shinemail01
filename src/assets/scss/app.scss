@@ -1,0 +1,78 @@
+@import 'settings';
+@import 'foundation';
+
+//zlato #bb9f55
+
+// Gradient color1 - color2 - color1 //
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $black;
+  background-image: linear-gradient(to right, $black, $zlato, $black);
+}
+
+.necena {
+    color: $dark-gray;
+    text-decoration: line-through;
+    text-decoration-color: $zlato;
+    text-decoration-style: solid;
+}
+
+
+.cena-inline {
+  color: $zlato;
+}
+
+h3 {
+  padding-left: $global-padding;
+  padding-right: $global-padding;
+  padding-top: none;
+  padding-bottom: none;
+  margin-bottom: -5px;
+}
+
+
+.body {
+
+}
+
+.bezmezery {
+  margin-bottom: none;
+}
+
+.ramecek {
+  border-style: 1px solid;
+  border-color: $zlato;
+  margin: $global-margin;
+}
+
+.panel img {
+display: inline-block;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+p {
+  padding-left: $global-padding;
+  padding-right: $global-padding;
+  padding-top: none;
+  padding-bottom: none;
+  margin-top: none;
+  margin-bottom: 5px;
+}
+
+.paticka {
+  font-size: 0.75em;
+}
+
+.hlavicka {
+  padding: $global-padding;
+  vertical-align: bottom;
+  font-family: $header-font-family;
+}
+
+.logo-shine {
+
+  width: 200px;
+}
